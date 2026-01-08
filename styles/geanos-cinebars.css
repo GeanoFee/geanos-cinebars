@@ -1,0 +1,68 @@
+/**
+ * Geanos CineBars Styles
+ * Creates black bars that slide in from top and bottom during combat
+ */
+
+.geano-cinebar {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: #000000;
+  z-index: 10;
+  transition: transform 0.8s ease-in-out;
+  pointer-events: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.geano-cinebar-top {
+  top: 0;
+  transform: translateY(-100%);
+}
+
+.geano-cinebar-bottom {
+  bottom: 0;
+  transform: translateY(100%);
+}
+
+.geano-cinebar.active {
+  transform: translateY(0);
+}
+
+/* Subtle gradient for more cinematic effect */
+.geano-cinebar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.geano-cinebar.active::after {
+  opacity: 1;
+}
+
+.geano-cinebar-top::after {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.geano-cinebar-bottom::after {
+  top: 0;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.4));
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .geano-cinebar {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .geano-cinebar {
+    height: 50px;
+  }
+}
