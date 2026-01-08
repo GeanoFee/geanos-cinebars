@@ -27,10 +27,7 @@ Geanos CineBars automatically adds sleek cinematic black bars (letterbox effect)
 
 ## 🚀 Installation
 
-1. Download the latest release
-2. Extract to your `Data/modules/` directory
-3. Restart FoundryVTT
-4. Enable the module in your world's module settings
+- **Manifest URL**: `https://github.com/GeanoFee/geanos-cinebars/releases/latest/download/module.json`
 
 ## 🎮 Usage
 
