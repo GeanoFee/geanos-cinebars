@@ -1,6 +1,6 @@
 # Geanos CineBars
 
-System agnostic module that t ransforms your FoundryVTT combat encounters into cinematic experiences with dynamic film bars that automatically appear during combat, just like in movies and TV shows.
+System agnostic module that ransforms your FoundryVTT combat encounters into cinematic experiences with dynamic film bars that automatically appear during combat, just like in movies and TV shows.
 
 ## 🎬 What It Does
 
