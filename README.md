@@ -1,5 +1,7 @@
 # Geanos CineBars
 
+![Geano's Scene Rotation Showcase](https://github.com/GeanoFee/geanos-cinebars/blob/main/GCB.jpg?raw=true)
+
 System agnostic module that ransforms your FoundryVTT combat encounters into cinematic experiences with dynamic film bars that automatically appear during combat, just like in movies and TV shows.
 
 ## 🎬 What It Does
