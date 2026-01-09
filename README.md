@@ -1,4 +1,4 @@
-# Geanos CineBars
+# Geano's CineBars
 
 ![Geano's CineBars Showcase](https://github.com/GeanoFee/geanos-cinebars/blob/main/showcase.jpg?raw=true)
 
