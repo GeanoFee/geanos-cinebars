@@ -77,7 +77,7 @@ This multi-hook approach ensures the bars work reliably across different systems
 
 ## 🔧 Compatibility
 
-- **FoundryVTT Version**: v9+ (tested on v12)
+- **FoundryVTT Version**: v11 (tested on v12)
 - **System Compatibility**: Universal (works with any game system)
 
 ---
