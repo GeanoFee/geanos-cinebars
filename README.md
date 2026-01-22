@@ -81,5 +81,5 @@ This multi-hook approach ensures the bars work reliably across different systems
 - **System Compatibility**: Universal (works with any game system)
 
 ---
-
-*Made with ❤️ for the FoundryVTT community*
+## License
+This module is licensed under the [MIT License](LICENSE).
